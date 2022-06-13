@@ -1,0 +1,34 @@
+		Browser/Navegador
+
+para ver um site é necessário um programa que converta
+ as linguagens de programação em algo compreensível para o usuário(a interface do site)
+reconhece e intrepreta linguagens de programação(javascript) e marcação(HTML),
+ além de conteúdo multimidia, fotos, vídeos, audios....
+
+		Site
+
+página da internet
+criada com uso de linguagens de programação e marcação
+
+		Web-server
+
+local onde estão armazenados os dados 
+
+estatico- servidor físicoonde estão os arquivos, softwares e banco de dados
+dinâmico- são os softwares armazenados no servidor estatico
+
+file server- servidor que armazena arquivos
+application server- servidor que armazena aplicaçoes
+database- armazena banco de dados
+pode existir servidores que armazenam todos os tipos de dados
+ao fazer uma requisição a internet,
+	 os dados são buscados dentro do servidor estatico em busca
+	 dos dados no servidor dinâmico
+
+		Web-service
+
+são interfaces disponíveis para fazer requis~ções e consultas em bancos de dados
+ 	inacessíveis de maneira segura
+Ex.: não é possível acessar o banco de dadods do correio,
+ 	então eles disponibilizaram um service que pode acessar
+	 o banco e retornar um dado desejado como os dados do endereco usando o CEP

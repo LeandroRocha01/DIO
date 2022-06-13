@@ -1,0 +1,12 @@
+Git init - cria um repositório dentro da pasta selecionada
+Echo > - cria uma mensagem ou um arquivo dentro do repositorio
+Git add - adiciona os arquivos ou modificações dentro do repositorio
+Mkdir - cria nvas pastas no repositorio
+Mv arquivo ./novaPasta - move o arquivo para uma outra pasta do repositorio
+git status - mostra as alterações realizadas desde o ultimo commit
+git commit - salva as alterações no repositorio local
+git push origin main- env
+ia os arquivos do repositório local para o repositorio remoto
+git pull - "puxa" os arquivos do repositorio remoto para o local
+https://www.digitalhouse.com/br/blog/principais-comandos-git/
+site com alguns comandos do Git

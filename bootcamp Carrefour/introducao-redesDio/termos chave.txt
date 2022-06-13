@@ -1,0 +1,10 @@
+cache - são dados de um site que ficam armazenados depois do acesso
+crack - termo usado para referenciar o pirateamento de um software
+html - linguagem de marcação para desenvolvimento web
+http - protocolo de internet
+link - ligação, referência a um lugar
+url - é o endereco referenciado pelo link
+keylogger - virus que grava tudo o que foi digitado pelo teclado
+backup - cópia de segurança dos dados
+cookies - registros de atividades que podem usados por outros sites para personalizar anúncios por exemplo
+IP - numero que endereça a máquina na rede

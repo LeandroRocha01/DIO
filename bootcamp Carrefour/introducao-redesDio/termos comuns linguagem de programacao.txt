@@ -1,0 +1,20 @@
+404 - erro, página ão encontrada no server
+algoritmo - sequencia de passos para resolver uma questão
+ALT - texto alternativo
+API - funcionalidades adicionais para executar funções expecíficas
+	parte do site que pode ser utilizado em outras 
+	Ex.: o login de um site pode ser usado em outro site
+biblioteca/dll - conjunto de funções prontas que podem ser usadas no desenvolvimento
+breakpoint - pontos de parada durante o debug do código
+debug - rodar o código para identificar erros
+DNS - tradutor de nome para IP
+DPI - proporção de pixels da tela
+Favcicon - icone do site que fica na guia do navegador
+HTTP - protocolo de rede
+MVC - model view controller - arquitetura de software
+MVP - model view products - minimo do projeto que pode ser entregue para testes
+SSL - camada de segurança 
+UI - user interface - interface do usuário
+UX - user experience - esperiência do usuário
+WYSIWYG - what you see what you get
+

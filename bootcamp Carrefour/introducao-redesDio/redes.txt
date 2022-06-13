@@ -1,0 +1,75 @@
+		TCP/IP
+tcp - protocolo de controle de transmissão
+IP - protocolo de internet
+
+a comunicação entre os dispositivos passa por quatro camadas 
+antes do processo de comunicação em si
+
+1- Física - o hardware necesário para a trasmissão dos dados(Ex.: placa de rede)
+	
+2- Rede - a máquina precisa estra conectada a rede
+	 e possuir um número(IP) que a identifique dentro da mesma 
+
+3- Transporte - são os meios utilizados para enviar os dados,
+	 é o protocolo utilizado para o transporte(Ex.: protocolo TCP)
+
+4- Aplicação - é o tipo de dado que vai ser enviado,
+	 Email(SMTP), arquivo(FTP), site(HTTP)....
+
+	Diferença entre TCP e UDP
+
+UDP 
+Rápido
+Não confiável - não tem confirmação de envio ou recebimento,
+	 dados podem ser perdidos durante o envio
+"Carro do ovo" - ele emite(envia) a mensagem para todos em volta, 
+	mas não sabe quem ou quantos receberam esta mensagem
+Livestream - não necessariamente precisa de confirmação de recebimento, 
+além de ser mais rápido que o TCP
+
+
+TCP
+Voltado à conexão
+Handshake - "aperto de mãos" - antes de enviar o pacote para outra máquina
+ 	ocorre uma comunicação para garantir
+	a integridade da conexão de ambas as máquinas
+Integridade, ordem dos dados - validação de envio e de recebimento dos dados,
+	além do envio de maneira ordenada
+App de mensagem de texto - whatsapp envia e recebe dados
+	 e possui ícones que identificam se a mensagem foi enviada, recebida e lida
+
+
+		Portas/Ports
+
+são os pontos de "ancoragem" da máquina por onde as mensagens vão chegar
+existe uma porta expecífica para cada tipo de dados
+Ex.:
+20: FTP- arquivos
+22: SSH- conexão segura para executar comandos remotamente
+25: SMTP- envio de emails
+53: DNS- tradutor de nome para IP
+80: HTTP- requisição simples na internet(sites, pesquisas)
+443: HTTPS- requisição segura na internet
+465: porta exclusiva usada pelo Gmail
+3306: porta padrão para acessar o banco mysql
+
+		Roteadores/Switches/Modens
+
+Modem- Modulador-demodulador
+	converte dados para um formato que possa ser enviado para outros computadores através da internet
+	converte dados recebidos pela internet em um formato que possa ser lido pelo computador
+
+Roteador
+	distribui a internet para os dispositivos conectados a uma rede
+	pode comunicar duas ou mais redes
+	pode ser burro(ocorre em modelos antigos, atualmente esse problema não acontece)
+	- "carro do ovo"
+		envia os dados solicitados por um dispositivo para todos conectados a rede
+		mas apenas oque solicitou utilizará os dados, os outros apenas o descartam
+		gera um grande tráfego na rede
+
+Switch
+	distribui a internet para os dispositivos conectados a uma rede
+	É inteligente
+		envia os pacotes apenas para o dispositivo que o solicitou
+
