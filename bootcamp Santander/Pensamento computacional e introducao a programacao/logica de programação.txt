@@ -1,0 +1,17 @@
+solução de problema
+lógica de pensamento utilizada para auxiliar no porcesso de resolução de problemas
+conceito de çógica na programação
+	organização e planejamento  das intruções visando viabilizar a implantação de um programa
+
+Técnicas de lógica de programação
+
+linear - 
+execução sequenciada de uma série de ações que resultam no mesmo objetivo
+
+estruturada - 
+é adicionada tomadas de decisão, 
+não é mais linear pois durante a execução podem ser tomados diversos caminhos diferentes
+
+modular -
+o programa é fragmentado em diversos módulos, cada um com sua finalidade, 
+é possível reutilizar estes módulos em diversas partes do programa

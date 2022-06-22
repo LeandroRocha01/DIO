@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify content</title>
+    <style>
+        .container{
+            max-width: 400px;
+            border: 2px solid black;
+            margin: 10px;
+            display: flex;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            text-align: center;
+            color: white;
+            padding: 2px;
+        }
+
+        .column{
+            flex-direction: column;
+            height: 300px;
+        }
+
+        .flex-start{
+            justify-content: flex-start;
+        }
+
+        .flex-end{
+            justify-content: flex-end;
+        }
+
+        .flex-center{
+            justify-content: center;
+        }
+        .space-between{
+            justify-content: space-between;
+        }
+        .space-around{
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <h1>flex-start</h1>
+    <section class="container flex-start">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+    </section>
+    <h1>flex-end</h1>
+    <section class="container flex-end">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+    </section>
+    <h1>center</h1>
+    <section class="container flex-center">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+    </section>
+    <h1>space-between</h1>
+    <section class="container space-between">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+        <divi class="item">4</divi>
+    </section>
+    <h1>space-arround</h1>
+    <section class="container space-around">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+        <divi class="item">4</divi>
+    </section>
+
+    <h1>- - - - - columns - -  - -</h1>
+    <h1>flex-start</h1>
+    <section class="container flex-start column">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+    </section>
+    <h1>flex-end</h1>
+    <section class="container flex-end column">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+    </section>
+    <h1>center</h1>
+    <section class="container flex-center column">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+    </section>
+    <h1>space-between</h1>
+    <section class="container space-between column">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+        <divi class="item">4</divi>
+    </section>
+    <h1>space-arround</h1>
+    <section class="container space-around column">
+        <divi class="item">1</divi>
+        <divi class="item">item 2</divi>
+        <divi class="item">mais um item</divi>
+        <divi class="item">4</divi>
+    </section>
+
+</body>
+</html>

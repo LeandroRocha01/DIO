@@ -1,0 +1,76 @@
+toda a evoução tecnologica se inicia pelo hardware, depois pelo software
+as vezes a ideia do software está pronta, mas ainda não existe equipamento capaz de executá-lo
+
+
+programas da computação tendem a seguir um tipo de padrão
+
+problema de decisão
+"booleano" - sim ou não
+relacionado a pertencimento
+x número pertence ao conjunto y, é primo?
+
+problema de busca
+relacionamento binário
+
+problema de otimização
+otimizar ou maximizar o uso do componente
+
+	linguagem de programação
+método padronizado de implementação de um código fonte
+conjunto de regras e palavras reservadas para cada linguagem de modo que o computador e o programador entendam
+
+	código fonte
+código gerado através do uso da linguagem de programação(de alto nível)
+
+Pode ser: 
+- Traduzido
+o programa compilador converte o código para uma linguagem de baixo nível(linguagem de máquina)
+   para que o computador interprete corretamente
+a versão código convertido é chamada de programa objeto
+
+- Interpretado 
+não precisa ser traduzido, a máquina entende o código de baixo nível
+tende a ser um processo mais demorado
+
+
+	Caracteristicas de um programa
+
+diretrizes que devem ser consideradas antes de desenvolver um sistema:
+-legibilidade
+	deve ser legível, interpretável pela máquina e por outros porgramadores
+	codigo seja coerente
+-redigibilidade
+	bem desenvolvido, no sentido de boas práticas e sintaxe
+	fácil escrita, sem complexidade desnecessaria
+	reutilizar tudo q for possível
+-confiabilidade
+	executar oque se propos a fazer
+	identificar e demonstrar os erros
+	compatibiidade entre máquinas
+-custo
+	usar os recursos concientemente
+	sem desperdício
+	consumir o minimo de recurso computacional possivel
+
+
+	paradigma de programação
+mátodo de resolução de problemas paltado por regras e diretrizes
+
+Estruturado
+decisão
+enfase em instruções sendo executadas sequencialmente
+testes lógicos
+estruturas de repetição, decisão...
+muito utilizada em C
+utilizado em problemas simples de diretos
+
+Orientada a objeto
+utliiza os conceitos de objetos e suas interações
+identifica e separa elementos por características, comportamento e estado em comum
+vantagem do POO
+	reutilização de código
+
+
+
+
+	

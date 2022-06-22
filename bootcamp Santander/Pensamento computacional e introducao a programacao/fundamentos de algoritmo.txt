@@ -1,0 +1,31 @@
+	Variável
+um espaço de memória onde são armazenado dados utilizados pelo sistema
+vai receber um tipo de dado pré determinado
+os valores podem ser modificados
+mutável
+
+	Constate
+uma variável com o valor fixo
+
+	Instruções primitivas
+palavras chave que vão determinar as ações seguidas pelo computador
+
+	Estrutura condicional
+executa uma tomada de decisão dentro do código e,
+	dependendo do resultado(verdadeiro/falso), diferentes caminhos serão traçados
+simples - if
+composta - if else
+encadeada if elseif else encadeado
+
+	Estrutura de repetição
+executa um trecho de programa em loop de acordo com uma regra determinada regra prédeterminada
+	tendo como limite um valor definido ou até que um requisito seja atendido
+
+	Vetor
+coleção de variáveis unidimensional
+
+	matriz 
+coleção de vetores
+
+	Funções
+blocos de instruções que realizam tarefas específicas 
