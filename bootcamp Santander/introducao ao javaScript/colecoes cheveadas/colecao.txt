@@ -1,0 +1,44 @@
+	MAP
+
+coleção de arrays no formato [chave,valor]//como os objetos]
+
+declarado como:  const myMap = new Map()
+pode ser percorrido com o for..of
+
+métodos:
+myMap.set('apple', 'fruit');//adiciona elementos no formato key e valor
+	apple é a key e fruit é o valor da key
+
+myMap.get('apple');//retorna o valor da key definida
+
+myMap.delete('apple');//deleta o valor da key definida
+
+	diferença de map e objeto
+
+map tem chave de qualquer tipo(numero, string....)
+possui a propriedade length - mais fácil de iterar
+utilizado quando o valor da chave é desconhecido
+
+objeto só tem chave do tipo string
+
+
+	SET
+estruturas que armazenam valores únicos, não é possível inserir um número duas vezes
+
+delcarando: const mySet = new Set();
+
+métodos:
+
+mySet.add(1);//adiciona um valor
+
+mySet.has(1);//verifica se o valor existe no set
+
+mySet.delete(1);//deleta o valor
+
+
+diferença de set e array
+tem valor único
+set n tem propriedade length, possui a size que faz a mesma coisa
+não tem métodos map,filter,reduce...  - mas tem equivalentes
+
+

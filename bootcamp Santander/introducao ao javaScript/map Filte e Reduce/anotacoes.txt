@@ -1,0 +1,32 @@
+	MAP
+
+método que realiza operações encima de um array
+ retornando um novo array com o resultado da operação
+
+sintaxe:
+array.map(callback, thisArg)
+	callback - define a função a ser executada em cada elemento
+	thisArg - opcional, caso a função deva ser executada em um elemento definido
+
+	MAP vs FOREACH
+
+forEach precisa ser declarado em uma variável
+
+	Filter
+
+retorna um novo array com os valores que se enquandrar na condição definida
+não modifica o array original
+sintaxe:
+	array.filter(callback, thisArg)
+
+
+	Reduce
+
+executa um função em todos os elementos do array 
+retorna um valor único
+sintaxe:
+	array.reduce(callbackFN, initialValue)
+calbackFn- executa a função apartir do acumulador
+	acumulador - é o valor de todas as chamadas do callbackFn
+	currentValue - valor que está sendo acesado pela função
+initialValue - valor sobre o qual o retorno final irá atuar(opcioanl)

@@ -1,0 +1,56 @@
+Orientação a objeto é um paradigma imperativo da programação
+	como resolver os problemas
+
+os programas são objetos, cada tipo de objeto tem suas caracteristicas
+
+	Pilares
+
+herança:
+	objetos filhos herdam me´todos e propriedades do objeto pai
+polimorfismo:
+	classes podem herdar a mesma classe pai mas se comportarem de maneira diferente
+encapsulamento:
+	cada classe tem suas propriedades e métodos exclusivos, 
+	independentes do resto do código
+abstração:
+	fragmentar uma questão grande es varias pequenas 
+
+
+
+	OOJS/JavaScript orietado a objeto
+
+
+	prototipos/prototype
+
+esqueleto do objeto, 
+conjunto de propriedades e métodos que o objeto herda ao ser declarado
+ptrtotype é visto em todos valores de tipo complexo, array, objeto
+
+
+	classes
+
+nativamente, não existem classes no JS, 
+  apartir o ECMAScript 6 foi inserida a sintaxe de classe
+Syntatic sugar - sintaxe feita para facilitar a escrita
+  é declarado como classe mas no funcionamento é um objeto, 
+    a herança se dá por protótipos
+
+metodo super - usado na classe filho para sobreescrever
+    suas caracteristicas nos métodos herdados
+
+
+reguas de tomada
+// A função gets() é implementada dentro do sistema para ler as entradas(inputs) dos dados e a função print() para imprimir a saída (output) de dados e já pula uma linha ("\n")
+// Abaixo segue um exemplo de código que você pode ou não utilizar
+let lines = gets().split("\n");
+
+let line = lines.shift().split(' ');
+let soma = 0
+
+//TODO: Complete os espaços em branco com uma possível solução para o desafio
+
+for(i=1;i<=4;i++){
+  let transfor = parseInt(line.slice(-i))
+  soma = soma + transfor;
+}
+print(soma-3)

@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243,243,243);/*#1c1e21*/
+    background-color: rgb(243,243,243);
     margin: 0;
     padding: 0;
     display: flex;
@@ -20,7 +20,7 @@ body {
 .instagram-wrapper {
     display: flex;
     align-items: center;
-    justify-content: start;/*start - inicia a ordenar os items da esquerda para direita*/
+    justify-content: start;
     width: 60%;
     height: 100vh;
 }
@@ -50,7 +50,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #fff;/*#1c1c1c*/
+    background-color: #fff;
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;

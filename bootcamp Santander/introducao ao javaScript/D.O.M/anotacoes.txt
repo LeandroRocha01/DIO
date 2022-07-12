@@ -1,0 +1,94 @@
+	DOM
+
+Docmuneto Object Model
+  é um padrão de como acessar e modificar elementos HTML de uma página
+  um mapa qe contém todos os elementos HTML da página ordenados da raiz e fragmentando em nós
+
+		<html>//raiz
+	<head>		<body> //nós
+   <title>  <link>    <a>   <h1> //nós
+
+
+/*	BOM
+
+Browser Object Model
+ arvore de dependecias dentro da janela do browser
+ tudo está dentro do objeto window
+DOM , historico, localização, tela, navegador - dodas as funcionalidades presentes na janela do browser
+
+*/
+
+
+	Manipulando elementos da página HTML
+
+document.getElementByID('titulo') //retorna o valor o elemento com o id correspondente, 
+	existe apenas um id com cada nome nas páginas HTML 
+
+document.getElementByTagName('h2') //retorna um array com todos os valores das tags h2 da página
+
+document.getElementByClassName('textos') //retorna os valores das classes textos,
+	 podem haver vários elementos com a mesma classe
+
+document.querySelectorAll('.primeira-classe . segunda-classe')
+	//retorna os elementos que tenham as duas classes, ou definir um tipo de tag e a classe
+
+
+- - ADICIONAR E DELETAR - - 
+
+document.createElement(elemento) - cira um novo elemento HTML
+document.removeChild(elemento) - remove um elemento do elemento pai
+document.appenChild('elemento') - adiciona um elemento dentro do pai
+document.replaceChild(novo,antigo) - substitui o elemento por um novo
+
+
+	Manipular estilo de elementos HTML
+classe .classLIst - lista das classes do elemento HTML
+
+const meuElmento = document.getElementByID('meu-elemento');
+
+MeuElmento.classLIst.add("novo-estilo");
+	//adiciona a classe meu-estilo ao elemento "meu-elemento';
+
+MeuElmento.classLIst.remove("classe");
+ 	//remove a classe 'classe do "meu-elemento";
+
+MeuElmento.classLIst.toggle("dark-mode");
+	//adiciona 'dark-mode' se não estiver no elemento, ou remover caso já esteja no elemento
+
+	Acessando diretamente o css do elemento
+
+
+document.getElementByTagName('h2').syle.color = 'blue';
+	//modifica a cor de todos os elementos de tag h2
+
+
+	Eventos
+
+ação que o usuário faz na página, clicar, digitar, movimentar o cursor, scrolar
+
+ - Eventos do mouse -
+mouseover - qndo o mouse está no elemento
+mouseout - qndo o mouse sai no elemento
+click - clique simples no elemento
+dbclick - clique duplo no elemento
+
+ - Eventos de atualização - 
+change - atualizar um campo
+load - atualizar um campo
+
+
+	ACIONAR OS EVENTOS
+ 
+.addEnvetListener - 'monitora o elemento' aguardando o evento definido para executar a funcao definida para ele
+
+const botao = documento.getElementByID('meuBotao');
+
+botao.addEventListener('click', funcaoClick);
+	//o evento de click aciona a funcaoClick no botao
+
+ - acionando dentro do HTML
+
+<h1 onclick="funcaoClick(this)">Clique aqui</h1> 
+//ao(on) clicar(click) executa a funcaoClick no próprio hq, por causa do this
+
+botao.add

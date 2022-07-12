@@ -1,0 +1,47 @@
+sinais usados para manipular e validar valores
+
+	operadores de atribuição
+= atribuindo valor a uma variavel
++= soma o valor atual da variável mais o novo valor
+*= multiplica
+/= divide
+%= retorna o 'resto' da divisão entre o valor atual com o novo valor
+
+	operadores de aritmetica
+
++
+-
+*
+** exponencial
+/
+% retorna o resto da divisao
+++ soma 1 no valor 
+-- subtrai 1 no valor
+
+	comparação
+
+== igual, mesmo valor
+=== igual no mesmo valor e tipo de variável
+!= valores diferentes
+!== tipo de dado e valor diferentes
+> maior que
+< menor que
+>= maior ou igual
+<= menor ou igual
+
+	logicos
+
+&& - e ( se x E y = 1, faça isso)
+|| - ou ( se x OU y = 1, faça isso)
+! - não	( se x !(não for) true, faça isso
+
+	condicional
+um if else simplificado
+(condição) ? expressao01 : expressao02 
+
+(condição) ?{
+ expressao01 
+}
+: else{
+ expressao02 
+}

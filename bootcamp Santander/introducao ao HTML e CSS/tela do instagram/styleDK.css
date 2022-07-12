@@ -20,7 +20,7 @@ body {
 .instagram-wrapper {
     display: flex;
     align-items: center;
-    justify-content: start;/*start - inicia a ordenar os items da esquerda para direita*/
+    justify-content: start;
     width: 60%;
     height: 100vh;
 }

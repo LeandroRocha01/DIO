@@ -1,0 +1,60 @@
+	Modulos
+são arquivos .js que importam e exportam informações de outros arquivos .js
+
+	Vantagens
+
+-organização de código
+	cada arquivo pode armazenar e definir um tipo especifico de dado
+
+-compratilhar variaveis em diferenstes escopos
+
+-deixar explicito a dependencia dos arquivos
+
+
+	Como exportar
+
+ - Named Exports 
+ exportar funções de maneira individual ou em conjunto atravé donome da função
+	usando a propriedade export
+EX.:
+export function funcao01(){........}
+export function funcao02(){........}//exportando individualmente
+
+export{
+  funcao01,
+  funcao02,
+  funcao03
+}//exportando em conjunto
+
+ - Default Export 
+ só pode haver um export default por arquivo
+ é o retorno padrão do arquivo
+
+
+	Como importar
+
+ - Named exports
+import { variaveis, classes e funcções que quer importar} from './arquivoOrigem.js'
+
+ - Default exports
+import valorPadrao from './arquivoOrigem.js'
+
+
+	trocar nome de import
+
+import {funcao as Apelido} from './arquivoOrigem.js'
+dentro do arquivo onde foi importada, a função vai ser chamada pelo apelido definido
+
+	Importar todas as funçoes metodos variaveis ... do arquivo
+
+import * as Apelido from './arquivoOrigem.js'
+* significa que foi selecionado tudo
+
+	Vincular ao HTML
+
+inserir na tag script o type="module'
+<script type="module" src="./nomeDoArquivo.js></script>
+para rodar com arauivos locais é necessário rodar um servidor
+
+	Pesquisar sobre strict mode
+	Estudar sobre a extensão .mjs

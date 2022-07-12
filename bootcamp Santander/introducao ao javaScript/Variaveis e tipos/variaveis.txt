@@ -1,0 +1,121 @@
+	normas de boas praticas para declaração de variaveis
+Camel case  -  someAwespmeVar  -  cada palavra tem a primeira letra em maiusculo, esceto a primeira palavra
+Snake case  -  some_awesome_var - as plavras são separadas por um underline
+Kebab case  -  some-awesome-var - as palavras são separadas por traços
+Pascal case  -  SomeAwesomeVar - toda palavra começa em maiúsculo
+Upper case Snake case - SOME_AWESOME_VAR - tudo em maiúsculo separado por underline
+
+	palavras reservadas para declaração de variáveis
+
+-- VARIAVEL É DECLARADA EM camelCase--
+-- É É RECOMENDADO PRIOMRIZAR O USO DO LET PARA DECLARAR VARIÁVEL--
+
+let
+- declara uma variável de escopo local, funciona apenas na função onde foi declarada
+- pode ser redefinida - atribuir um novo valor a uma variavel já declarada
+
+var
+- declara uma variável de escopo global, funciona em todo o código
+Funcionalidades adicionais do var:
+- hosting - atribuir valor a uma variavel ainda não declarada
+- redeclaração - declarar novamente uma variável de uma que já existe
+- redefinição
+
+	palavra reservada para declarar constantes
+
+-- DECLARAR EM SNAKE_UPPER_CASE--
+- escobo local - roda on bloco onde foi declarado
+- não faz hoisting
+- não pode ser redefinida
+- não pode ser redeclarada
+
+	TIPOS DE DADOS
+
+dados primitivos:
+- não tem métodos
+- escrito em letra minuscula
+numeros
+string 
+booleano
+vazio
+indefinido
+
+dados compostos:
+- 
+objetos
+arrays
+
+
+	String
+
+textos, valores tratados como texto, mesmo valores numéricos
+são declaradas entre aspas ou crase
+crase permite interpolar texto com variáveis
+
+concate - concatena o valor de uma string em outra 
+lenght - retorna o tamanho da string
+split - separa os elementos da string de acordo com a regra definida
+include - procura um determinado elemento dentro da string
+startsWith - verifica se a string começa com o valor defindo
+endsWith - verifica se a string termina com o valor definido
+replace - retorna a string com um valor substituido por outro definido
+
+
+	Numeros
+
+inteiros ou decimais
+não é declarado entre aspas
+possível realizar todas as operações matemáticas básicas
+uso da biblioteca .math
+biblioteca com varios métodos auxiliares para operações mais complexas
+.math:
+floor - arredonda o valor para baixo
+ceil - arredonda o valor para cima
+toString - retorna o valor numérico como string
+
+	Booleano
+
+retorna apenas verdadeiro ou falso
+usado para validação
+
+
+	Arrays/vetores
+
+lista íterável de elementos
+"uma string com indice"
+indice permite navegar pelos elementos do array
+
+push - insere um valor no final do array
+unshift - inere no inicio do array
+pop - remove o ultimo valor do array
+shift - remove o primeiro valor do array
+includes - verifica se o elemento definido existe no array
+every - verifica se todos os elementos são iguais ao valor definido
+some - verifica se algum dos elementos é igual ao valor definido
+reverse - inverte a ordem dos elementos do array
+join - une os valores do array em uma string
+
+	Objetos
+
+conjunto de valores relacionados com uma chave
+ex.: objeto aluno tem nome, idade, ra
+let aluno = {
+nome = "Leandro",
+idade = 21,
+ra = 12332114
+}
+
+values - retorna os valores do objeto("leandro", 21,12332114)
+keys - retorna as keys do objeto(nome,idade,ra)
+aluno.nome - retorna ou declara o valor da key nome
+aluno["endereco"] - cria uma nova key no objeto
+aluno[endereco] - cria uma chave usando como key o valor de uma variavel já existente
+ 		
+	empty / undefined / null
+
+
+empty - uma variável declarada, mas não preenchida
+null - uma variável declarada com um valor vazio
+undefined - a variável não foi declarada
+	falsy - valores tratados como false, mas não são false
+	

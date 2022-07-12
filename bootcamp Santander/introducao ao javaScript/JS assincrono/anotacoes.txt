@@ -1,0 +1,80 @@
+por padrão o javaScript acontece de maneira sincrona
+  realizando uma tarefa por vez
+
+
+	assincrono
+
+pode realizar mais de uma tarefa durante a execução de outra
+
+	Promises
+
+objeto de porcessamento assincrono
+valor inicial é indefinido, e pode ser resolvida ou rejeitada
+
+três estados da promises
+Pending: pendente - foi recebida e ainda não foi realizada
+Fulfilled: realizada - tarefa concluida
+Rejected: rejeitada - tarefa não vai ser realizada
+
+await - manipulação da promises
+possivel concatenar ações com o retorno da promises
+
+
+	async/await
+
+async define que a função é assincrona
+
+await - 'diz'´para o código aguardar o retorno 
+   da função assincrona para executar o código do await
+
+a chamada da função assincrona no console
+  deve ser feita com o await antes da função
+
+
+	APIs
+
+application Programming interface
+maneira de intermediar resultados do back-end com o apresentado no front-end
+acessá-la por meio de URLs
+
+normalmente os dados são manipulados no formato .json,
+  sendo necessário tratar qundo recebidos ou enviados
+
+	FETCH
+
+método para uso de APIs
+sintaxe:
+fetch(url, options)
+	.then(response => response.join())
+	.then(json => console.log(json))//metodos de maipulação de promises
+
+//fetch sempre retorna promises
+precisa usar o await para chamar no console
+
+
+
+
+------
+
+const BASE_URL = 'https://thatcopy.pw/catapi/rest/';
+const catBtn = document.getElementById('change-cat');
+
+const getCats = async() => { //funcao assincrona
+    try{
+        const data = await fetch(BASE_URL);//resultado da manipulação do API, nesse caso da busca
+        const json = await data.json();
+        //converte o resultado do uso da API no formato .json formato usadopara transferencia de dados de API
+        return json.webpurl;//retorna uma imagem comprimida da url usada
+    } catch(e) {//manipulação de possiveis erros
+        console.log(e.mensage);
+    }
+};
+
+const loadImg = async () => {//alterar a imagem no html
+    const catImg = document.getElementById('cat');
+    catImg.src = await getCats();// retorna direto no Id da imagem a url devolvida pela API
+};
+
+catBtn.addEventListener('click',loadImg);//cria o evento para troca de imagem ao apertar o botão
+
+loadImg();//chama a função para inicializar a pagina já com uma imagem

@@ -1,0 +1,36 @@
+tipos de erros
+
+	ECMAScript Error
+
+erro que ocorre no tempo de execução
+mensagem, nome do erro, linha onde o erro aconteceu e call stack
+mostra oque foi executado até chegar a linha do erro
+
+
+	DOMException
+
+erro relacionado ao DOM - document object model 
+
+
+	throw
+
+um return que caso a consicional seja false, o valor devolvido é um erro
+
+
+	try..catch
+
+verificar um trecho de código no try, caso o resultado seja um
+o catch vai tratar o erro que vai ser devolvido 
+
+	finally
+
+um acrescento do try..catch inserido após o catch 
+que vai ser executada tendo ou não erro a ser manipulado pelo catch
+
+
+	Criar erro personalizado/manipular o objeto error
+
+erro tem como parametros a mensagem,
+	 nome do arquivo com erro e a linha do erro
+é declarado em uma const 
+erro pode ser nomeado

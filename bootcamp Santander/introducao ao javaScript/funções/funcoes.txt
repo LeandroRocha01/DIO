@@ -1,0 +1,107 @@
+return - para a função e pode devolver um valor
+
+função anônima - função armazenada dentro de uma variável ou constante
+		não tem nome próprio
+Ex.: let soma = function(a,b){
+	return a+b;
+	}
+
+	função autoinvocavel
+
+é uma função qe chama a si própria
+(
+  fuction(a,b){
+	return a + b;
+  }
+)(1,2);
+
+	callbacks
+
+função usada dentro de uma outra função
+Ex.:
+
+const calc = function(op, num1,num2){
+	return op(num1,num2;
+}
+op é uma outra função declarada 
+
+	array
+
+spread - propriedade usada para fragmentar o array em elementos separados
+usado na passagem de paramentros de entrada em uma função
+
+function soma (a,b,c){
+return a+b+c;
+}
+let num = [1,2,3];
+soma(...num); - o spread são os três pontos antes da passagem de parametro
+
+rest - combina elementos indepentes em um array;
+EX.:
+function confereTamanho(...args){ -´são os pontos na definição do tipo de parametro
+console.log(args.length)
+}
+confereTamanho(1,2,3)
+
+
+Objetct destructuring - usado para passar apenas uma das keys do objeto
+
+function user ID({id}){ - recebe apenas a key ID do objeto
+codigo;
+}
+
+
+	
+
+if/else - verificação SE e SENÃO
+é possivel armazenar condicionais em variaveis e constantes
+EX.:
+const num = x<0 - a const num vai armazenar o valor booleano resultante da verificação
+
+switch - 
+
+	LOOPS
+
+for - repete uma parte do código enquanto a verificação for atendida
+usado para percorrer arrays e strings
+
+for..in
+usado em onbjetos
+
+for..of
+
+
+while - executa uma instrução enquanto a condição for atendida
+
+do/while - igual ao while, porém ele executa pelo menos uma vez a instrução
+
+
+	this
+
+referencia o objeto onde foi declarada
+
+let pessoa = {
+nome = "jose";
+sobreNome = "silva";
+function nomeCompleto{
+	return this.nome+' '+this.sobrenome;
+  }
+}
+
+
+	arrow function
+
+é a contração da sintaxe de uma função normal
+sempre armazenada em uma constante
+this não funciona
+--- NÃO FAZ HOISTING ---
+EX.:
+const helloWorld = function(){
+  return 'Hello World';
+}
+
+const helloWorld = () => 'Hello World';
+quando a função tem apenas uma linha, é presumido que tem o return, então é interpretado com return
+
+se a função recebe apena um parametro, não é necessário inserir os parenteses
+EX.: const soma = a => a*3;
