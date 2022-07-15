@@ -1,0 +1,27 @@
+	TypeScript
+
+superset do JavaScript
+	construida por cima do JS, tudo q o JS tem mais algumas funcionalidades
+	compila em JS
+
+adiciona definição de tipos - tipar os parametros 
+	maior seguranaça no desenvolvimento
+	mais facil a detecção de erros durante a compilação
+
+iniciar um projeto node
+    npm init -y - comando no terminal
+
+
+não é uma boa pratica usar o tipo ANY para tipar uma variavel
+	causa muitos erros
+
+	TSConfig
+
+arquivo de configuracoes da linguagem TypeScript
+target - diz em que versao do js o arquivo TypeScript vai ser compilado
+lib - expecifica sa bibliotecas desejadas para o projeto
+		por padrao vem com todas as bibliotecas 
+outDir - expecifica o destino para os arquivos js gerados apartir dos TS
+rootDir - diz onde estão os arquivos .ts que devem ser compilaods pelo script watch
+strictNullChecks: "false/true" - dispara erros qndo identifica um elemento qe pode ser tipo null
+
